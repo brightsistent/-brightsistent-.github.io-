@@ -637,10 +637,10 @@ ${orderListText}
       // 1. 請至 https://web3forms.com/ 免費申請一個 Access Key（只需輸入信箱，幾秒鐘即可立刻在信箱收到金鑰，完全免費）
       // 2. 將下方引號內預設的 'YOUR_ACCESS_KEY_HERE' 修改為您申請到的 Key 即可。
       // ==========================================
-      const WEB3FORMS_ACCESS_KEY = b165f105-3639-4468-9d24-061dad29d306; 
+      const WEB3FORMS_ACCESS_KEY = 'b165f105-3639-4468-9d24-061dad29d306'; 
 
       // 檢查是否已設定 API 金鑰。未設定則自動切換回原本的 mailto 降級方案
-      if (WEB3FORMS_ACCESS_KEY === b165f105-3639-4468-9d24-061dad29d306) {
+      if (WEB3FORMS_ACCESS_KEY === 'b165f105-3639-4468-9d24-061dad29d306') {
         console.warn('注意：尚未設定 Web3Forms Access Key，已自動降級使用 mailto 方式開啟您的郵件程式。');
         const recipient = "brightsistent@gmail.com";
         const subject = `【執灼線上預訂單】來自 ${name} 貴賓的精選預訂`;
